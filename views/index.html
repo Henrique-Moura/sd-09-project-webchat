@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+  <script defer src="/socket.io/socket.io.js"></script>
+  <script defer src="chat.js"></script>
+</head>
+<body>
+  <form class="nickname-box">
+    <ul id="user"></ul>
+    <input type="text" data-testid="nickname-box" id="nickname-box">
+    <button data-testid="nickname-button">Enviar Usuário</button>
+  </form>
+
+  <form action="" class="message-box chat">
+    <ul id="message" class="messages"></ul>
+    <input type="text" data-testid="message-box" id="message-box">
+    <button data-testid="send-button">Enviar</button>
+  </form>
+</body>
+</html>

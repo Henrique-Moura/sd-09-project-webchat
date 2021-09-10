@@ -1,0 +1,61 @@
+/* ref: https://gist.github.com/diego3g/a3b8dc290750e928eb05e33a26670a0a */
+html , body {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/236x/c9/1f/cd/c91fcd147661c60204bd6b8ae9c0a8fd.jpg');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Space Grotesk, sans-serif;
+  height: 100%;
+}
+
+input {
+  border: 1px solid #ddd;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 20px;
+  width: 600px;
+}
+
+button {
+  background: #069;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  width: 600px;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  height: 400px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 600px;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.2rem;
+}
+
+.nickname-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
