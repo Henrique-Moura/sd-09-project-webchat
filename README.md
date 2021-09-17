@@ -23,4 +23,4 @@
 
 ## Aplicação em uso
 
-- Acesse: https://www.linkedin.com/feed/update/urn:li:activity:6833760461037551616/
+- Acesse: https://www.linkedin.com/posts/henriqueg-moura_ol%C3%A1-pessoal-blz-compartilho-com-voc%C3%AAs-activity-6833760461037551616-7oig
