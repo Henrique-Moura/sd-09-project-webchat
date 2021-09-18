@@ -2,6 +2,7 @@
 
 ## Pré-Requisitos
 - [Node](https://nodejs.org/en/download/)
+- [MongoDB](https://docs.mongodb.com/manual/installation/)
 
 ## Clonar o repositório
 
